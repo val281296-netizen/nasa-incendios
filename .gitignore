@@ -1,0 +1,10 @@
+# Ignorar todos los archivos crudos de Sudamérica
+data/raw/
+
+# Ignorar los archivos filtrados excepto un ejemplo
+data/argentina/*.csv
+!data/argentina/incendios_ARG_example.csv
+
+# Ignorar archivos temporales de R
+.Rhistory
+.RData
